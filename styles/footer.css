@@ -1,0 +1,21 @@
+footer {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #5bc8ac;
+    font-weight: 600;
+}
+
+.footer--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 6rem;
+    list-style: none;
+}
+
+footer a {
+    color: #070c5e;
+}

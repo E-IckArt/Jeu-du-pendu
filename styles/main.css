@@ -1,0 +1,100 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px #f18d9e;
+    border-radius: 20px;
+    margin: 30px 0 20px;
+    padding: 30px 25px;
+    line-height: 1.5;
+    width: 65vw;
+}
+
+#word_to_find {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#word_to_find > p {
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 15px;
+    border: solid 4px #f18d9e;
+    border-radius: 20px;
+    margin: 10px 0 20px;
+    padding: 10px 20px;
+}
+
+/* #word_to_find .winner {
+    color: #79eb49;
+}
+*/
+
+#word_to_find .loser {
+    color: red;
+}
+
+#word_to_find .gameover {
+    color: #070c5e;
+}
+
+#word_to_find img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 2vh;
+}
+
+#letters {
+    height: 20%;
+    display: block;
+    text-align: center;
+}
+
+#letters ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+#letters ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f18d9e;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 10px 5px;
+    width: 35px;
+}
+
+#letters ul li.good {
+    background-color: #5bc8ac;
+}
+
+#letters ul li.wrong {
+    background-color: #e6d72a;
+}
+
+#letters button {
+    color: #070c5e;
+    background-color: #f18d9e;
+    border: solid 2px #070c5e;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 1rem;
+}

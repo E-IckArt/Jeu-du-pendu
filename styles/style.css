@@ -1,0 +1,13 @@
+/* Colors :
+#98DBC6 Aquamarine
+#5BC8AC Turquoise
+#F18D9E Pink Tulip
+#E6D72A Canary Yellow
+#070c5e Dark Blue
+*/
+
+@import url(reset.css);
+@import url(body.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
