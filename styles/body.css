@@ -1,7 +1,7 @@
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #98dbc6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #070c5e;
     font-weight: 600;

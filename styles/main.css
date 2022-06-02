@@ -2,6 +2,7 @@ main {
     width: 80%;
     margin: 0 auto;
     padding: 10px;
+    flex-grow: 2;
 }
 
 figure {
@@ -51,8 +52,10 @@ figure {
     height: 150px;
     width: 150px;
     margin-bottom: 2vh;
+    border-radius: 5px;
 }
 
+/* Keybord */
 #letters {
     height: 20%;
     display: block;
@@ -73,7 +76,7 @@ figure {
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
-    background-color: #f18d9e;
+    background-color: #98dbc6;
     border-radius: 15px;
     margin: 8px;
     padding: 10px 5px;
@@ -88,9 +91,10 @@ figure {
     background-color: #e6d72a;
 }
 
+/* New game button */
 #letters button {
     color: #070c5e;
-    background-color: #f18d9e;
+    background-color: #98dbc6;
     border: solid 2px #070c5e;
     border-radius: 10px;
     font-weight: 600;
