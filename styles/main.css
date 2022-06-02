@@ -1,5 +1,5 @@
 main {
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 10px;
     flex-grow: 2;
@@ -10,12 +10,12 @@ figure {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
     border: solid 4px #f18d9e;
     border-radius: 20px;
     margin: 30px 0 20px;
-    padding: 30px 25px;
+    padding: 30px;
     line-height: 1.5;
-    width: 65vw;
 }
 
 figcaption > hr {
@@ -33,10 +33,12 @@ figcaption > hr {
     font-weight: bolder;
     font-size: 2rem;
     letter-spacing: 15px;
+
+    background-color: #fff;
     border: solid 4px #f18d9e;
     border-radius: 20px;
     margin: 10px 0 20px;
-    padding: 10px 20px;
+    padding: 10px 2vw;
 }
 
 /* #word_to_find .winner {
@@ -73,7 +75,9 @@ figcaption > hr {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    margin: auto;
     padding: 10px;
+    max-width: 700px;
 }
 
 #letters ul li {

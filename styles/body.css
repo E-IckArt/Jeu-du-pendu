@@ -4,5 +4,6 @@ body {
     flex-direction: column;
     font-family: 'Nunito Sans', Verdana, Tahoma, sans-serif;
     color: #070c5e;
+    background-color: #f3f2f1;
     font-weight: 600;
 }
