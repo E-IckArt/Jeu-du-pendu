@@ -18,6 +18,10 @@ figure {
     width: 65vw;
 }
 
+figcaption > hr {
+    border: none;
+}
+
 #word_to_find {
     display: flex;
     flex-direction: column;
@@ -40,8 +44,9 @@ figure {
 }
 */
 
-#word_to_find .loser {
+#word_to_find .gameover.loser {
     color: red;
+    border: solid 4px red;
 }
 
 #word_to_find .gameover {
@@ -88,7 +93,7 @@ figure {
 }
 
 #letters ul li.wrong {
-    background-color: #e6d72a;
+    background-color: #f18d9e;
 }
 
 /* New game button */

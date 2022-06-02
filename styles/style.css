@@ -6,6 +6,12 @@
 #070c5e Dark Blue
 */
 
+/* Font-family
+font-family: 'Athiti', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
 @import url(reset.css);
 @import url(body.css);
 @import url(header.css);
