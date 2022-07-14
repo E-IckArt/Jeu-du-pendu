@@ -92,6 +92,10 @@ figcaption > hr {
     width: 35px;
 }
 
+#letters ul li:hover {
+    cursor: pointer;
+}
+
 #letters ul li.good {
     background-color: #5bc8ac;
 }
