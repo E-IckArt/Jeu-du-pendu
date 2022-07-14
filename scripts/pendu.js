@@ -146,7 +146,7 @@ class HangedMan {
             .forEach((letter) => (letter.className = 'disabled'));
 
         const button_element = document.createElement('button');
-        button_element.textContent = 'Recharger la page';
+        button_element.textContent = 'NOUVELLE PARTIE';
 
         button_element.addEventListener('click', () =>
             window.location.reload(false)
