@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Nunito Sans', Verdana, Tahoma, sans-serif;
-    color: #070c5e;
-    background-color: #f3f2f1;
+    color: var(--color-darkBlue);
+    background-color: var(--color-lightGrey);
     font-weight: 600;
 }

@@ -11,7 +11,7 @@ figure {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    border: solid 4px #f18d9e;
+    border: solid 4px var(--color-turquoise);
     border-radius: 20px;
     margin: 30px 0 20px;
     padding: 30px;
@@ -35,7 +35,7 @@ figcaption > hr {
     letter-spacing: 15px;
 
     background-color: #fff;
-    border: solid 4px #f18d9e;
+    border: solid 4px var(--color-turquoise);
     border-radius: 20px;
     margin: 10px 0 20px;
     padding: 10px 2vw;
@@ -47,12 +47,12 @@ figcaption > hr {
 */
 
 #word_to_find .gameover.loser {
-    color: red;
-    border: solid 4px red;
+    color: var(--color-red);
+    border: solid 4px var(--color-red);
 }
 
 #word_to_find .gameover {
-    color: #070c5e;
+    color: var(--color-darkBlue);
 }
 
 #word_to_find img {
@@ -85,7 +85,7 @@ figcaption > hr {
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
-    background-color: #98dbc6;
+    background-color: var(--color-aquamarine);
     border-radius: 15px;
     margin: 8px;
     padding: 10px 5px;
@@ -94,21 +94,23 @@ figcaption > hr {
 
 #letters ul li:hover {
     cursor: pointer;
+    color: var(--color-aquamarine);
+    background-color: var(--color-darkBlue);
 }
 
 #letters ul li.good {
-    background-color: #5bc8ac;
+    background-color: var(--color-turquoise);
 }
 
 #letters ul li.wrong {
-    background-color: #f18d9e;
+    background-color: var(--color-pink);
 }
 
 /* New game button */
 #letters button {
-    color: #070c5e;
-    background-color: #98dbc6;
-    border: solid 2px #070c5e;
+    color: var(--color-darkBlue);
+    background-color: var(--color-aquamarine);
+    border: solid 2px var(--color-darkBlue);
     border-radius: 10px;
     font-weight: 600;
     margin: 20px 0;

@@ -1,20 +1,21 @@
-/* Colors :
-#98DBC6 Aquamarine
-#5BC8AC Turquoise
-#F18D9E Pink Tulip
-#E6D72A Canary Yellow
-#070c5e Dark Blue
-#f3f2f1 Light Grey
-*/
+/* Import CSS */
+@import url(reset.css);
+@import url(body.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+:root {
+    --color-lightGrey: #f3f2f1;
+    --color-darkBlue: #070c5e;
+    --color-aquamarine: #98dbc6;
+    --color-turquoise: #5bc8ac;
+    --color-pink: #f18d9e;
+    --color-red: #ff0000;
+}
 
 /* Font-family
 font-family: 'Athiti', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 */
-
-@import url(reset.css);
-@import url(body.css);
-@import url(header.css);
-@import url(main.css);
-@import url(footer.css);

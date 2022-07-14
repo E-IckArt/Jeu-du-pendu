@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    background-color: #5bc8ac;
+    background-color: var(--color-turquoise);
     padding: 20px 0;
     font-family: 'Montserrat Alternates', sans-serif;
 }

@@ -2,7 +2,7 @@ footer {
     margin: 0;
     padding: 10px 0;
     text-align: center;
-    background-color: #5bc8ac;
+    background-color: var(--color-turquoise);
     font-weight: 600;
 }
 
@@ -17,5 +17,5 @@ footer {
 }
 
 footer a {
-    color: #070c5e;
+    color: var(--color-darkBlue);
 }
