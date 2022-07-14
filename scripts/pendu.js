@@ -12,7 +12,6 @@ class HangedMan {
 
     init() {
         this.random_word = this.getRandomWord(this.list_of_words);
-        console.log(this.random_word);
 
         const word_section_element = document.createElement('section');
         word_section_element.id = 'word_to_find';
@@ -38,8 +37,6 @@ class HangedMan {
         this.parent_element.appendChild(letters_section_element);
 
         this.hidden_letters_array = this.displayHiddenWord(this.random_word);
-
-        console.log(this.hidden_letters_array);
     }
 
     getRandomWord(array) {
