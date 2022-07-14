@@ -9,6 +9,7 @@ Réalisé en javascript Vanilla.
 ## Objectifs du projet
 
 -   Mise en pratique de la logique algorithmique
+-   POO
 -   Manipulation des éléments du DOM
 
 ## Deploiement : Github-pages
